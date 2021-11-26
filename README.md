@@ -2,12 +2,19 @@
 Second homework
 
 ## 实现功能及方法
+* 改进了血条和子弹数的UI
+* ![](https://github.com/mengnancc/homework1126/blob/main/begin.PNG) 
 * 添加`RadialForce`扔手雷并炸开敌人（按G）<br> 
+* ![](https://github.com/mengnancc/homework1126/blob/main/shoulei.png) 
 * 使用`Spotlight`实现了枪支加手电的功能（按F）
-* 实现了敌人指定区域自动追踪
+* 使用`导航网格边界体积`实现了敌人指定区域自动追踪
+* ![](https://github.com/mengnancc/homework1126/blob/main/zhuizong.PNG) 
 * 增加了射击 静止 奔跑（按shift） 跳跃（按空格）等动画（基本上都是基于`分层骨骼`实现），包括敌人的攻击行走动画<br>
+* ![](https://github.com/mengnancc/homework1126/blob/main/movement.png) 
 * 新增了一个摄像机Actor加上`混合视图目标`实现了机瞄功能（鼠标右键）<br>
+* ![](https://github.com/mengnancc/homework1126/blob/main/jimiao.png) 
 * 枪械流光外形（基于`time`实现）我做了但是没有实装在player身上，可以在project中的Content文件夹的Fp_weapon的网格体中找到<br>
+* ![](https://github.com/mengnancc/homework1126/blob/main/gunskin.png) 
 * 利用`Camerashake`功能实现后坐力与拟真晃动
 * 如果这两天有空我会把第一，三人称视角切换功能实装
 
